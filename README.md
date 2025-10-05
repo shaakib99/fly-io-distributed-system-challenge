@@ -65,4 +65,4 @@ tar -xjf maelstrom.tar.bz2
   --node-count 1 \
   --time-limit 10
 
-Thanks to [](https://www.codyhiar.com/blog/reading-ddia-and-solving-gossip-glomers-in-python-part-1/)
+Thanks to [https://www.codyhiar.com/](https://www.codyhiar.com/blog/reading-ddia-and-solving-gossip-glomers-in-python-part-1/)
