@@ -6,6 +6,10 @@ node = Node()
 node_messages = set()
 
 @node.handler
+async def topology(req: Request):
+    return {"type": "topology_ok"}
+
+@node.handler
 async def broadcast(req: Request):
     msg = req.body["message"]
     if msg not in node_messages:
